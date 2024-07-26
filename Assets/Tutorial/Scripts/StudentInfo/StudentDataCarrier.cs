@@ -1,13 +1,19 @@
 using UnityEngine;
 using UnityEngine.Events;
 
-namespace UV.Tutorial.StudentInfo
+namespace Kojiko.Tutorial.StudentInfo
 {
-    [CreateAssetMenu(fileName = "Student Data Carrier", menuName = "UV/Student Data/Student Data Carrier")]
+    /// <summary>
+    /// Manages the student data editor window and events
+    /// </summary>
+    [CreateAssetMenu(fileName = "Student Data Carrier", menuName = "Kojiko/Student Data/Student Data Carrier")]
     public class StudentDataCarrier : ScriptableObject
     {
         [SerializeField] UnityEvent _onSaved;
 
+        /// <summary>
+        /// Opens the student data editor window and sets up event handlers
+        /// </summary>
         public void OpenWindow()
         {
             StudentDataEditor.Init((x) =>
@@ -17,6 +23,9 @@ namespace UV.Tutorial.StudentInfo
             });
         }
 
+        /// <summary>
+        /// Invokes the onSaved event when editing is finished
+        /// </summary>
         void OnFinishedEditing()
         {
             _onSaved?.Invoke();
