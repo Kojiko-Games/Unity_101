@@ -1,0 +1,69 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f107dc6d4c984c45bdafd3bb15f98f0, type: 3}
+  m_Name: 0.The Scene View
+  m_EditorClassIdentifier: 
+  TutorialTitle:
+    m_Untranslated: The Scene View
+  m_ProgressTrackingEnabled: 0
+  m_LessonId: 
+  m_Version: 1
+  m_SceneManagementBehavior: 0
+  m_Scenes:
+  - {fileID: 102900000, guid: 3bd56e23fb5ca4e4583f58a7cf03ca03, type: 3}
+  m_DefaultSceneCameraSettings:
+    m_CameraMode: 1
+    m_FocusMode: 0
+    m_Orthographic: 0
+    m_Size: 7.31797
+    m_Pivot: {x: -4.6642795, y: 2.9103022, z: 4.825883}
+    m_Rotation: {x: -0.010700881, y: -0.9303515, z: 0.027381027, w: -0.36589196}
+    m_FrameObject:
+      m_SceneGuid: 5215016c20f88ea498985ac3e0ab4f9d
+      m_GameObjectGuid: 1cfbe7af-bf05-4103-840c-b10224020f60
+      m_SerializedComponentType:
+        m_TypeName: 
+      m_ComponentIndex: 0
+      m_AssetObject: {fileID: 0}
+      m_Prefab: {fileID: 0}
+    m_Enabled: 1
+  m_WindowLayout: {fileID: 0}
+  m_Pages:
+    m_Items:
+    - {fileID: 11400000, guid: 3fe8e258bd015cf4bafa0325edd55f1d, type: 2}
+    - {fileID: 11400000, guid: 428436e150f654b4daaf678d0dacf124, type: 2}
+    - {fileID: 11400000, guid: 04be44b3efd4e5749ad0af40eb58c96e, type: 2}
+    - {fileID: 11400000, guid: 6a8fcd13b368d064d92f06614e1445f2, type: 2}
+    - {fileID: 11400000, guid: cb23d9b98838bd34a95721d68dd1db5e, type: 2}
+    - {fileID: 11400000, guid: c031cefda63d2d741aef3c599e2ec8e9, type: 2}
+    - {fileID: 11400000, guid: c74280f952d23684b8d05e3ca926f0d1, type: 2}
+  CompletionDialog: {fileID: 0}
+  Modified:
+    m_PersistentCalls:
+      m_Calls: []
+  Initiated:
+    m_PersistentCalls:
+      m_Calls: []
+  PageInitiated:
+    m_PersistentCalls:
+      m_Calls: []
+  GoingBack:
+    m_PersistentCalls:
+      m_Calls: []
+  Completed:
+    m_PersistentCalls:
+      m_Calls: []
+  Quit:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Scene: {fileID: 0}
+  m_TutorialTitle: 

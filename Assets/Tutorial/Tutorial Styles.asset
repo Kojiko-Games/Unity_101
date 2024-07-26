@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a385a00f03d2f4d1aa06e69dc6fdeea4, type: 3}
+  m_Name: Tutorial Styles
+  m_EditorClassIdentifier: 
+  m_MaskingColor: {r: 0.14117648, g: 0.35686275, b: 0.003921569, a: 0.14117648}
+  m_HighlightColor: {r: 0.38888896, g: 1, b: 0, a: 1}
+  m_BlockedInteractionColor: {r: 0.079832695, g: 0.4339623, b: 0.39721653, a: 0.5}
+  m_HighlightThickness: 1.69
+  m_HighlightAnimationSpeed: 5
+  m_HighlightAnimationDelay: 5
+  LightThemeStyleSheet: {fileID: 7433441132597879392, guid: f024b7035a09345e5848e3de8f1b5dcb, type: 3}
+  DarkThemeStyleSheet: {fileID: 7433441132597879392, guid: 1cc9851f62063cd4ba510d60b2c81bbe, type: 3}

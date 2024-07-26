@@ -1,0 +1,74 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 89305aa391d1c5141bbe1628d930a2c5, type: 3}
+  m_Name: Tutorials
+  m_EditorClassIdentifier: 
+  Modified:
+    m_PersistentCalls:
+      m_Calls: []
+  ParentContainer: {fileID: 0}
+  OrderInView: 1
+  BackgroundImage: {fileID: 0}
+  Title:
+    m_Untranslated: Tutorials
+  Subtitle:
+    m_Untranslated: This tutorial has been divided into sections will be hopefully
+      make it easier to understand
+  Description:
+    m_Untranslated: 
+  ProjectLayout: {fileID: 102900000, guid: 37df82cf9f5141a4fa1bc3860d7cffd5, type: 3}
+  Sections:
+  - OrderInView: 0
+    Heading:
+      m_Untranslated: Getting Started
+    Text:
+      m_Untranslated: Learn the basics of Unity's interface
+    Metadata: 
+    Url: 
+    Image: {fileID: 2800000, guid: a77faddc74a5a452e8ae1a65ef7e92c7, type: 3}
+    Tutorial: {fileID: 11400000, guid: 43bb5d32af5e7d848b24fc65bd3ceb9d, type: 2}
+  - OrderInView: 0
+    Heading:
+      m_Untranslated: The Scene View
+    Text:
+      m_Untranslated: Learn the basics of using the scene view
+    Metadata: 
+    Url: 
+    Image: {fileID: 2800000, guid: 1c49367a4dd9b154da8b14c5aeab3beb, type: 3}
+    Tutorial: {fileID: 11400000, guid: 23e197d08d5c16d418e4bbfa04b9906c, type: 2}
+  - OrderInView: 0
+    Heading:
+      m_Untranslated: The Game View
+    Text:
+      m_Untranslated: Learn the basics of using the game view
+    Metadata: 
+    Url: 
+    Image: {fileID: 2800000, guid: 51d7508232ee67340b668e51f72260d4, type: 3}
+    Tutorial: {fileID: 11400000, guid: 75d31eb0ede8da64d8dfad76b5131ba2, type: 2}
+  - OrderInView: 0
+    Heading:
+      m_Untranslated: The Inspector
+    Text:
+      m_Untranslated: Learn the basics of using the inspector window
+    Metadata: 
+    Url: 
+    Image: {fileID: 2800000, guid: 81c0faf45066433418935b018541e962, type: 3}
+    Tutorial: {fileID: 11400000, guid: 9221a667a84651e43ba8bf9eb33a7545, type: 2}
+  - OrderInView: 0
+    Heading:
+      m_Untranslated: The Project and Hierarchy Windows
+    Text:
+      m_Untranslated: Learn the uses of the Project and Hierarchy windows
+    Metadata: 
+    Url: 
+    Image: {fileID: 2800000, guid: b1abe14b6313a2741a0036f95137b959, type: 3}
+    Tutorial: {fileID: 11400000, guid: 5d10acd4cc431c047a5b42e8128b6218, type: 2}
