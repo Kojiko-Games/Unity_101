@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.XR.Interaction.Toolkit;
 
 namespace Kojiko.Tutorial.Callbacks
 {
@@ -15,7 +16,7 @@ namespace Kojiko.Tutorial.Callbacks
         /// <returns>True if the object has an XRGrabInteractable component, otherwise false</returns>
         public bool HasInteractable(string tag)
         {
-            return HasComponent<UnityEngine.XR.Interaction.Toolkit.Interactables.XRGrabInteractable>(tag);
+            return HasComponent<XRGrabInteractable>(tag);
         }
 
         /// <summary>
@@ -25,7 +26,7 @@ namespace Kojiko.Tutorial.Callbacks
         /// <returns>True if the object has dynamic attachment, otherwise false</returns>
         public bool DynamicAttach(string tag)
         {
-            var _grabInteractable = GetComponent<UnityEngine.XR.Interaction.Toolkit.Interactables.XRGrabInteractable>(tag);
+            var _grabInteractable = GetComponent<XRGrabInteractable>(tag);
             return _grabInteractable == null || _grabInteractable.useDynamicAttach;
         }
 
@@ -36,7 +37,7 @@ namespace Kojiko.Tutorial.Callbacks
         /// <returns>True if the object has a valid attachTransform, otherwise false</returns>
         public bool HasAttackPoint(string tag)
         {
-            var _grabInteractable = GetComponent<UnityEngine.XR.Interaction.Toolkit.Interactors.XRSocketInteractor>(tag);
+            var _grabInteractable = GetComponent<XRSocketInteractor>(tag);
             return _grabInteractable == null || _grabInteractable.attachTransform != null;
         }
 
@@ -47,7 +48,7 @@ namespace Kojiko.Tutorial.Callbacks
         /// <returns>True if the object has an XRSocketInteractor component, otherwise false</returns>
         public bool HasSocket(string tag)
         {
-            return HasComponent<UnityEngine.XR.Interaction.Toolkit.Interactors.XRSocketInteractor>(tag);
+            return HasComponent<XRSocketInteractor>(tag);
         }
     }
 }
