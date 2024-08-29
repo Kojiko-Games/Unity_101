@@ -1,9 +1,14 @@
+using System;
 using UnityEngine;
 using UnityEditor;
 using System.Linq;
+using System.Reflection;
+using System.Collections.Generic;
 
 namespace Kojiko.Tutorial
 {
+    using System.Net.Http;
+    using System.Text;
     using Unity.Tutorials.Core.Editor;
 
     /// <summary>
@@ -23,13 +28,11 @@ namespace Kojiko.Tutorial
                 "Clear",
                 "Cancel"))
             {
-                var allTutorials = TutorialEditorUtils.FindAssets<Tutorial>()
-                                                  .Where(t => t.ProgressTrackingEnabled);
+                var tutorialWindow = typeof(TutorialWindow);
+                var markUnCompleted = tutorialWindow.GetMethod("MarkAllTutorialsUncompleted", BindingFlags.NonPublic | BindingFlags.Instance);
+                markUnCompleted.Invoke(TutorialWindow.Instance, null);
 
-                foreach (var tutorial in allTutorials)
-                    tutorial.StopTutorial();
-
-                Debug.Log("Tutorial progress has been cleared!");
+                Debug.Log("Tutorial Progress was reset!");
             }
         }
     }
