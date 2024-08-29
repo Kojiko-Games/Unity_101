@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 89305aa391d1c5141bbe1628d930a2c5, type: 3}
+  m_Name: Group - Unity - Basics
+  m_EditorClassIdentifier: 
+  Modified:
+    m_PersistentCalls:
+      m_Calls: []
+  ParentContainer: {fileID: 11400000, guid: 0c7190aae9ae14c49800498f067d7305, type: 2}
+  OrderInView: 0
+  BackgroundImage: {fileID: 2800000, guid: a073e30cf8f3cab47b5cf5aa2df423f3, type: 3}
+  Title:
+    m_Untranslated: Unity Basics
+  Subtitle:
+    m_Untranslated: Learn the basics of Unity
+  Description:
+    m_Untranslated: 
+  ProjectLayout: {fileID: 102900000, guid: 37df82cf9f5141a4fa1bc3860d7cffd5, type: 3}
+  Sections: []
