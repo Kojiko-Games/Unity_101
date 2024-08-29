@@ -31,9 +31,10 @@ MonoBehaviour:
     OnClick:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 11400000, guid: 814404d1e7d7e4e4a822fbd8653712a6, type: 2}
-          m_TargetAssemblyTypeName: UV.Tutorial.StudentInfo.StudentDataCarrier, StudentInfo
-          m_MethodName: OpenWindow
+        - m_Target: {fileID: 11400000, guid: 426878f53cc0cc74d8c1a52ad5707a9b, type: 2}
+          m_TargetAssemblyTypeName: Unity.Tutorials.Core.Editor.TutorialContainer,
+            Unity.Tutorials.Core.Editor
+          m_MethodName: LoadTutorialProjectLayout
           m_Mode: 1
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
