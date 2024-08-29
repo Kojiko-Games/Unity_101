@@ -22,13 +22,14 @@ MonoBehaviour:
   m_PropertyPath: _moveSpeed
   m_TargetValueMode: 0
   m_TargetValue: 15
-  m_TargetValueType: 0
+  m_TargetValueType: 1
   m_Target:
     m_SceneObjectReference:
       m_SceneGuid: 3bd56e23fb5ca4e4583f58a7cf03ca03
       m_GameObjectGuid: 94a9a2bf-58e8-4a73-b89b-f90208a5b2fd
       m_SerializedComponentType:
-        m_TypeName: 
+        m_TypeName: Kojito.Player.BasicPlayerMovement, Kojito.Player, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
       m_ComponentIndex: 0
       m_AssetObject: {fileID: 0}
       m_Prefab: {fileID: 0}
@@ -75,15 +76,15 @@ MonoBehaviour:
           m_MaskSizeModifier: 0
           m_UnmaskedControls:
           - m_SelectorMode: 2
-            m_SelectorMatchType: 0
+            m_SelectorMatchType: 1
             m_GUIContent:
               m_Text: 
               m_Image: {fileID: 0}
               m_Tooltip: 
             m_ControlName: 
-            m_PropertyPath: <Speed>k__BackingField
+            m_PropertyPath: _moveSpeed
             m_TargetType:
-              m_TypeName: UV.Player.Player_Movement, UV.Player, Version=0.0.0.0,
+              m_TypeName: Kojito.Player.BasicPlayerMovement, Kojito.Player, Version=0.0.0.0,
                 Culture=neutral, PublicKeyToken=null
             m_GUIStyleName: 
             m_ObjectReference:
