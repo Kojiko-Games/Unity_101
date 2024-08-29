@@ -137,7 +137,7 @@ MonoBehaviour:
   DoneButton:
     m_Untranslated: Done
   m_CompletedSound: {fileID: 0}
-  m_AutoAdvance: 1
+  m_AutoAdvance: 0
   Showing:
     m_PersistentCalls:
       m_Calls: []

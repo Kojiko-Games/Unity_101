@@ -81,7 +81,7 @@ MonoBehaviour:
         - Type:
             m_TypeName: Unity.Tutorials.Core.Editor.ArbitraryCriterion, Unity.Tutorials.Core.Editor,
               Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-          Criterion: {fileID: 3556886169835412978}
+          Criterion: {fileID: 4208847935431963584}
       m_MaskingSettings:
         m_MaskingEnabled: 0
         m_UnmaskedViews: []
@@ -156,7 +156,7 @@ MonoBehaviour:
       m_Calls: []
   m_NextButton: Next
   m_DoneButton: Done
---- !u!114 &3556886169835412978
+--- !u!114 &4208847935431963584
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
