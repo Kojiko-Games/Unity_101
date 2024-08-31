@@ -21,8 +21,8 @@ MonoBehaviour:
   Title:
     m_Untranslated: 'Unity Basics: Part A'
   Subtitle:
-    m_Untranslated: this project is designed to help you learn the basics of Unity.
-      In this section we will cover the basic windows/tabs, tools, and core functionality.
+    m_Untranslated: This section covers the basic windows/tabs, tools, and core functionality
+      of the Unity Engine.
   Description:
     m_Untranslated: 
   ProjectLayout: {fileID: 102900000, guid: 37df82cf9f5141a4fa1bc3860d7cffd5, type: 3}
